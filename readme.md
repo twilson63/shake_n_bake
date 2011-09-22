@@ -1,3 +1,7 @@
+# UNDER DEVELOPMENT #
+
+---
+
 # Shake-N-Bake
 
 A very simple dsl that allows you to neatly watch for something
@@ -6,7 +10,12 @@ valid the publish/write the result.
 
 AKA.
 
-# `Shake` ~ N ~ `Bake`
+# _Shake_ ~ N ~ [Bake]
+
+
+## Requirements
+
+* Ruby 1.9.2
 
 ## Example 1 : Consuming a Job from a Cloudq
 
@@ -64,7 +73,7 @@ end
 
 ```
 
-_If your not first your last_
+_If you're not first you're last..._
 
 `Shake` ~ N ~ `Bake`
 
