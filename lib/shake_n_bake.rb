@@ -3,7 +3,7 @@ require 'singleton'
 
 module ShakeNBake; end
 
-require_relative 'shake_n_bake/dsl'
+require File.dirname(__FILE__) + '/shake_n_bake/dsl'
 
 def ShakeNBake(&block)
   snb = ShakeNBake::DSL.instance
